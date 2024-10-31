@@ -1,0 +1,20 @@
+print('Bem vindo as escolhas do João, essa vai ser difícil!')
+
+print('1. Flamengo')
+print('2. Vasco')
+
+
+escolha = int(input("Qual o seu time?"))
+
+if escolha == 1:
+  print('Brabo, você sabe muito!')
+
+elif escolha == 2:
+  print('Meu Deus, tem certeza disso?')
+  print('1. Sim. ;(')
+  print('2. Não! Tomei vergonha na cara!')
+  escolha2 = int(input("Sim ou não meu consagrado? Escolhe bem."))
+  if escolha2 == 1:
+    print('Eh... Você não tem jeito, vai orar.')
+  else:
+    print('Você fez a melhor coisa da sua vida, mudar de time.')
